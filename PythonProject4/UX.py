@@ -25,7 +25,6 @@ def main_menu():
         else:
             print("Невірний вибір!")
 
-# --- Перегляд ---
 def view_table():
     while True:
         print("\n*   Перегляд таблиці   *")
@@ -36,7 +35,6 @@ def view_table():
         choice = input("Виберіть пункт меню (1-3): ")
 
         if choice == "1":
-            # Вся таблиця
             for i in range(1, 10):
                 line = ""
                 for j in range(1, 10):
@@ -60,9 +58,6 @@ def view_table():
         else:
             print("Невірний вибір!")
 
-
-# --- Тренування ---
-import random
 
 def training():
     while True:
@@ -114,7 +109,6 @@ def training():
             print("Невірний вибір!")
 
 
-# --- Тести ---
 def tests():
     while True:
         print("\n*   Тести   *")
