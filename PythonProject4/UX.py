@@ -42,7 +42,6 @@ def view_table():
                 print(line.strip())
             input("\nНатисніть Enter для повернення...")
         elif choice == "2":
-            # Частина таблиці
             try:
                 num = int(input("Введіть число (1-9): "))
                 if 1 <= num <= 9:
